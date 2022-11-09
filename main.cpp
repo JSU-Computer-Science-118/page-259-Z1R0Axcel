@@ -1,3 +1,4 @@
+//Luke McClinton J00916724 11/08/22
 #include <cmath>
 #include <iomanip>
 #include <iostream>
