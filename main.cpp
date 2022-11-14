@@ -6,9 +6,7 @@
 using namespace std;
 int main() {
   double a, b, c, discriminant;
-  cout << "Enter a (the coefficient of x^2), enter b (the coefficient of x), "
-          "enter c (the constant term):  ";
-  cin >> a;
+   cin >> a;
   cin >> b;
   cin >> c;
   discriminant = pow(b, 2.0) - 4 * a * c;
