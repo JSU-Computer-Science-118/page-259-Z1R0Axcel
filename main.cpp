@@ -14,9 +14,9 @@ int main() {
     cout << "The single root is " << -b / (2.0 * a) << endl;
   } else if (discriminant > 0) {
     cout << "Two real roots" << endl;
-    cout << "-First root " << (-b + pow(discriminant, 1.0 / 2.0)) / (2.0 * a)
+    cout << "- First root " << (-b + pow(discriminant, 1.0 / 2.0)) / (2.0 * a)
          << endl
-         << "-Second root " << (-b - pow(discriminant, 1.0 / 2.0)) / (2.0 * a)
+         << "- Second root " << (-b - pow(discriminant, 1.0 / 2.0)) / (2.0 * a)
          << endl;
   } else
     cout << "Complex roots" << endl;
